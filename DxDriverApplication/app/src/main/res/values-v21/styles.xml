@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+<!--        取消系统默认的actionBar-->
+        <item name="windowActionBar">false</item>
+        <!--        取消系统默认的actionBar 的标题-->
+
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

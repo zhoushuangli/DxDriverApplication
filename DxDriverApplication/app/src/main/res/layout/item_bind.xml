@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/but_bind"
+        android:layout_marginTop="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/sp_24"
+        android:textColor="#E6FFFFFF"
+        android:text="1#"
+        android:layout_width="@dimen/dp_58"
+        android:layout_height="@dimen/dp_58"
+
+        android:background="@drawable/bind_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

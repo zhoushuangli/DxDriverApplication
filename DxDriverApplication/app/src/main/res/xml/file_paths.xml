@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<paths>
+    <external-path
+            name="tmgc.apk"
+            path="/" />
+    <external-path
+            name="external_files"
+            path="." />
+    <root-path
+            name="root_path"
+            path="." />
+    <external-path
+            name="app_update_external"
+            path="/" />
+    <external-cache-path
+            name="app_update_cache"
+            path="/" />
+    <external-path name="external_files" path="."/>
+    <external-path path="Android/data/com.daxi.dxdriverapplication/" name="files_root" />
+    <external-path name="my_images" path="Android/data/com.daxi.dxdriverapplication/files/Pictures" />
+</paths>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bjnew"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_10"
+    android:paddingRight="@dimen/dp_4"
+    android:paddingTop="@dimen/dp_10">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_pd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目前排队共"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+
+        android:layout_marginEnd="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_5"
+        app:layout_constraintBottom_toBottomOf="@id/tv_pd"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:id="@+id/tv_pd_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:textColor="#E4BB32"
+        android:textSize="@dimen/sp_28"
+        app:layout_constraintStart_toEndOf="@id/tv_pd"
+         />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_pd_w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="位"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintStart_toEndOf="@id/tv_pd_num"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_sx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="顺序"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_pd" />
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="车号"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toEndOf="@id/tv_sx"
+        app:layout_constraintTop_toBottomOf="@id/tv_pd" />
+
+    <TextView
+        android:id="@+id/tv_jz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_100"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="浇筑部位"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toEndOf="@id/tv_num"
+        app:layout_constraintTop_toBottomOf="@id/tv_pd" />
+
+    <View
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_num" />
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/recycler"
+        app:layout_constraintTop_toBottomOf="@id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+      />
+</androidx.constraintlayout.widget.ConstraintLayout>

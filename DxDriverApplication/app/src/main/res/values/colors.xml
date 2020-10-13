@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#0675bc</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white90">#E6FFFFFF</color>
+    <color name="home_title_bg">#589EFE</color>
+    <color name="textSaDownColor">#0675bc</color>
+    <color name="eidtext_border_color">#cccccc</color>
+    <color name="settings_left_tv_color">#333333</color>
+    <color name="pir_sensitivity_hint">#FF9800</color>
+    <color name="text_color">#FF474747</color>
+    <color name="divider_line_color">#dddddd</color>
+    <color name="transparent">#00000000</color>
+    <color name="view_line">#4DE6E6E6</color>
+    <color name="black_text">#333333</color>
+    <color name="tab_text_nomal">#999999</color>
+    <color name="ed_hint">#AAAAAA</color>
+    <color name="tv_999999">#999999</color>
+    <color name="tv_caveat">#FFFF9800</color>
+    <color name="tv_9bc8e4">#9BC8E4</color>
+    <color name="tv_19b3ea">#19B3EA </color>
+    <color name="tv_1bc088">#46B8CE  </color>
+    <color name="tv_51f6e8">#07BC82  </color>
+    <color name="tv_8ca2b1">#3296F7  </color>
+
+</resources>

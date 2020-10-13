@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+    <size
+        android:width="@dimen/dp_60"
+        android:height="@dimen/dp_60" />
+    <solid android:color="#A1C9E3" />
+
+
+</shape><!--    如果为true，则可在LevelListDrawable中使用。这通常应为“false”，否则形状不会显示。-->

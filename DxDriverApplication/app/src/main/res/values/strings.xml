@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">大西混凝土调度系统</string>
+    <string name="ok_notifyTitle">提示</string>
+    <string name="ok_notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="ok_setting">设置</string>
+    <string name="ok_cancel">取消</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="transportPurpose">出行场景</string>
+    <string name="locationPurpose">场景定位</string>
+    <string name="locationPurpose_dec">展示根据场景进行定位，设置场景后SDK内部会帮助设置相关属性</string>
+    <string name="sportPurpose">运动场景</string>
+    <string name="sportPurpose_dec">高精度连续定位，适用于有户内外切换的场景，GPS和网络定位相互切换，GPS定位成功之后网络定位不再返回，GPS断开之后一段时间才会返回网络结果</string>
+</resources>

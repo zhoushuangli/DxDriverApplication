@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ndroid="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50">
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="@dimen/dp_48"
+        android:layout_height="@dimen/dp_48"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_car_num"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="@dimen/dp_2"
+        android:gravity="center"
+        android:text="1#"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintStart_toEndOf="@id/tv_num"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+
+        android:gravity="left|center"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_car_num"
+        android:id="@+id/tv_location"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginLeft="@dimen/dp_16"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_location" />
+</androidx.constraintlayout.widget.ConstraintLayout>

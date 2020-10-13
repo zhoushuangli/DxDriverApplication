@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bjnew"
+    android:paddingLeft="@dimen/dp_16"
+    android:paddingRight="@dimen/dp_16"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:layout_marginTop="@dimen/dp_16"
+    android:id="@+id/tv_bianhao"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    style="@style/detail_car" />
+    <TextView
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/tv_time"
+        app:layout_constraintTop_toTopOf="@id/tv_bianhao"
+        style="@style/detail_car" />
+    <TextView
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#2EB3D6"
+        android:id="@+id/tv_ststus"
+        app:layout_constraintTop_toTopOf="@id/tv_time"
+        style="@style/detail_car" />
+    <TextView
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/tv_name"
+        app:layout_constraintStart_toStartOf="@id/tv_bianhao"
+        app:layout_constraintTop_toBottomOf="@id/tv_bianhao"
+        style="@style/detail_car" />
+    <TextView
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/tv_fangliang"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        style="@style/detail_car" />
+    <TextView
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/tv_gs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_fangliang"
+        style="@style/detail_car" />
+    <TextView
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/tv_car_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_gs"
+        style="@style/detail_car" />
+    <TextView
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_8"
+        android:id="@+id/tv_location_progress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_car_phone"
+        style="@style/detail_car" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/view_line"
+        android:layout_marginTop="@dimen/dp_8"
+        app:layout_constraintTop_toBottomOf="@id/tv_location_progress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"/>
+
+    <Button
+
+        android:layout_marginTop="@dimen/dp_12"
+        android:visibility="visible"
+        android:id="@+id/but_ok_location"
+        android:layout_width="@dimen/dp_160"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/cancel_but"
+        android:text="到达浇筑地点"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view1" />
+    <TextView
+
+        android:layout_marginTop="@dimen/dp_8"
+        android:visibility="gone"
+        android:gravity="center"
+        android:id="@+id/tv_progress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:textColor="#E4BB32"
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

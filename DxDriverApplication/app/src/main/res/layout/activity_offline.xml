@@ -21,6 +21,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:text="删除"
-        android:layout_width="@dimen/dp_63"
+        android:layout_width="@dimen/dp_60"
         android:layout_height="@dimen/dp_50"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
